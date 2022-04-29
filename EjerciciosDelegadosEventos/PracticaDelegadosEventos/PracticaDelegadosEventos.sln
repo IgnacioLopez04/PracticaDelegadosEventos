@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticaDelegadosEventos", "PracticaDelegadosEventos\PracticaDelegadosEventos.csproj", "{65F89C58-A6C2-46C7-8838-42851AB456A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio1", "Ejercicio1\Ejercicio1.csproj", "{48F69C16-6E73-4EB9-8D91-9CA7AC7B2DFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65F89C58-A6C2-46C7-8838-42851AB456A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F89C58-A6C2-46C7-8838-42851AB456A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65F89C58-A6C2-46C7-8838-42851AB456A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65F89C58-A6C2-46C7-8838-42851AB456A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48F69C16-6E73-4EB9-8D91-9CA7AC7B2DFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48F69C16-6E73-4EB9-8D91-9CA7AC7B2DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48F69C16-6E73-4EB9-8D91-9CA7AC7B2DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48F69C16-6E73-4EB9-8D91-9CA7AC7B2DFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {463A4700-8A0C-46C6-AE6B-B3EAB364C4AC}
+	EndGlobalSection
+EndGlobal
