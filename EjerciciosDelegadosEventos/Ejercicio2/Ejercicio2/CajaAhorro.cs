@@ -2,22 +2,25 @@
 {
     public class CajaAhorro
     {
-        public string NombreCliente { get; set; }
-        public decimal SaldoActual { get; set; }
+        private string NombreCliente { get; set; }
+        private decimal SaldoActual { get; set; }
 
-        public bool Retirar(decimal cantidadRetiro)
+        public EventHandler<LanzarEvento> Movimiento;
+        public void Retirar(decimal cantidadRetiro)
         {
-            if(cantidadRetiro <= SaldoActual)
+            if (cantidadRetiro <= SaldoActual)
             {
                 SaldoActual -= cantidadRetiro;
-                return true;
+
+                this.Movimiento(this, new LanzarEvento() { Nombre = this.NombreCliente, SaldoActual = this.SaldoActual, AccionRealizada = "Retiro"}); 
             }
-            return false;
         }
 
         public void Depositar(decimal deposito)
         {
             SaldoActual += deposito;
+            this.Movimiento(this, new LanzarEvento() { Nombre = this.NombreCliente, SaldoActual = this.SaldoActual, AccionRealizada = "Depositar"});
         }
+        
     }
 }
